@@ -61,7 +61,7 @@ for rect in rects:
     height = rect.get_height()
     plt.text(rect.get_x() + rect.get_width() / 2, height, str(height), ha='center', va='bottom')
 plt.show()
-rects=plt.bar(index,res,width=1,label='error when ϵ=1')
+rects=plt.bar(index,res,width=1,label='noise when ϵ=1')
 plt.legend()
 plt.xlabel('age_bucket')
 plt.ylabel('rounded noise')
